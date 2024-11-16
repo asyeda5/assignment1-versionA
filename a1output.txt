@@ -1,0 +1,56 @@
+test_dates (__main__.TestAfter.test_dates)
+after() will give next date ... ok
+test_dtypes (__main__.TestAfter.test_dtypes)
+after() is returning string ... ok
+test_leap (__main__.TestAfter.test_leap)
+after() works with leap year ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+test_leap_func (__main__.TestLeap.test_leap_func)
+leap_year function exists and returns True/False ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+test_leap_max (__main__.TestMonMax.test_leap_max)
+test mon_max with feb of leap/non-leap years ... ok
+test_mon_max (__main__.TestMonMax.test_mon_max)
+test the mon_max function ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+test_invalid_dates (__main__.TestValidDate.test_invalid_dates)
+making sure invalid dates return False ... ok
+test_valid_dates (__main__.TestValidDate.test_valid_dates)
+making sure valid dates return True ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+test_daycount (__main__.TestDayCount.test_daycount)
+given a start  and end date, returns number of weekends ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+test_arg_length (__main__.TestFinal.test_arg_length)
+when args != 2, output contains usage ... ok
+test_invalid_date (__main__.TestFinal.test_invalid_date)
+output contains usage when bad date ... ok
+test_weekends_with_proper_order (__main__.TestFinal.test_weekends_with_proper_order)
+output contains 'X weekend days' w/ dates in correct order ... ok
+test_weekends_with_reversed_order (__main__.TestFinal.test_weekends_with_reversed_order)
+output contains 'X weekend days'  w/ dates reversed ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.356s
+
+OK
